@@ -21,3 +21,127 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+    width: 670px;
+    display: flex;
+    padding-left: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.vizual {
+    background: linear-gradient(0deg, #50cc49, #06d7c1);
+    min-width: 335px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    border-radius: 5px 0% 0% 5px ;
+    min-height: 440px;
+    box-shadow: 0px 5px 2px lightgrey;
+}
+
+.detaily {
+    min-width: 335px;
+    border-radius: 0% 5px 5px 0% ;
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 2px lightgrey;
+}
+
+.detaily > * {
+    margin-left: 30px;
+}
+
+.logo {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.slogan {
+    padding-left: 30px;
+    /* padding-top: 30px; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.cenovka {
+    /* align-self: flex-end; */
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nazev {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    flex: 0 0 auto;
+}
+
+.produkt {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    flex: 0 0  auto;
+}
+
+.popis {
+    border-bottom: 2px solid #06d7c1;
+    flex: 0.4 0 auto;
+    
+}
+
+.parametr {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+}
+
+.velikosti li {
+    display: inline;
+    flex: 0 0  auto;
+    margin: 5px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border-radius: 50%;
+    border: 1px solid #f15f42;
+    padding: 5px;
+}
+
+.akce {
+    padding: 10px;
+    background-color: #f15f42;
+    border-radius: 10px;
+    color: white;
+    max-width: 140px;
+    text-align: center;
+}
+
+.akce a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
